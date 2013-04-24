@@ -1,4 +1,6 @@
 #!/bin/bash
+killall conky
+
 sleep 1
 conky -c /home/nephirus/scripts/conky/conky_battery.conf -d
 sleep 1
